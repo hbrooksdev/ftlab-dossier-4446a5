@@ -77,6 +77,9 @@ a:hover{color:var(--brass); background-size:100% 1px}
 .nav a .step{display:inline-block; width:18px; color:var(--brass); font-variant-numeric:tabular-nums; font-weight:600}
 .nav a[data-opt="1"]{border-left-color:var(--o1)} .nav a[data-opt="2"]{border-left-color:var(--o2)}
 .nav a[data-opt="3"]{border-left-color:var(--o3)} .nav a[data-opt="4"]{border-left-color:var(--o4)}
+.nav-sub{font-family:var(--font-ui); font-size:9px; letter-spacing:.16em; text-transform:uppercase; color:var(--ink-faint); margin:9px 0 3px 12px}
+.nav a.agent-ln{font-size:12px; color:var(--ink-faint); padding:4px 10px 4px 22px}
+.nav a.agent-ln:hover{color:var(--ink-soft)}
 
 /* ---------- main / article ---------- */
 .main{min-width:0; padding:0}
